@@ -1,0 +1,38 @@
+{
+  "features": [
+    {
+      "title": "Customizable Password Length",
+      "description": "Adjust the password length from 6 to 20 characters using the slider for optimal security."
+    },
+    {
+      "title": "Include Numbers",
+      "description": "Option to include numeric digits (0-9) in the generated password for added complexity."
+    },
+    {
+      "title": "Include Special Characters",
+      "description": "Add special characters like !@#$%^&*()_+ to make the password stronger against brute-force attacks."
+    },
+    {
+      "title": "One-Click Copy",
+      "description": "Easily copy the generated password to your clipboard with a single button click."
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "text": "Use the slider to set your desired password length between 6 and 20 characters."
+    },
+    {
+      "step": 2,
+      "text": "Check the 'Numbers' box if you want to include digits in your password."
+    },
+    {
+      "step": 3,
+      "text": "Check the 'Special Character' box to include symbols for extra security."
+    },
+    {
+      "step": 4,
+      "text": "The password will generate automatically. Click 'Copy' to save it to your clipboard."
+    }
+  ]
+}
