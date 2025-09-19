@@ -33,7 +33,9 @@ const PasswordGenerator = () => {
 
   return (
     <div className="w-full max-w-lg mx-auto shadow-xl rounded-xl px-8 py-8 my-12 bg-white border border-gray-200 hover:shadow-2xl transition-shadow duration-300">
-      <h1 className="text-gray-900 text-center text-3xl font-bold my-6 tracking-tight">Generate Your Password</h1>
+      <h1 className="text-gray-900 text-center text-3xl font-bold my-6 tracking-tight">
+        Generate Your Password
+      </h1>
       <div className="flex shadow-lg rounded-xl overflow-hidden mb-8 bg-gray-50 border border-gray-200">
         <input
           type="text"
@@ -43,7 +45,10 @@ const PasswordGenerator = () => {
           readOnly
           ref={PasswordRef}
         />
-        <button onClick={CopyPasswordToClipboard} className="bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white py-4 px-6 shrink-0 font-semibold transition-all duration-200 hover:shadow-lg">
+        <button
+          onClick={CopyPasswordToClipboard}
+          className="bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white py-4 px-6 shrink-0 font-semibold transition-all duration-200 hover:shadow-lg"
+        >
           Copy
         </button>
       </div>

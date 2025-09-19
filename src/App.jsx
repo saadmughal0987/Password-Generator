@@ -1,8 +1,8 @@
-import Header from './components/Header';
-import PasswordGenerator from './components/PasswordGenerator';
-import Features from './components/Features';
-import Instructions from './components/Instructions';
-import Footer from './components/Footer';
+import Header from "./components/Header";
+import PasswordGenerator from "./components/PasswordGenerator";
+import Features from "./components/Features";
+import Instructions from "./components/Instructions";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
